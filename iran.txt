@@ -58,7 +58,3 @@ farsroid.com##DIV[class="banner farsroid-ads"]
 soft98.ir##DIV[id="a7d5x-special"]
 ||https://cdn.hostdl.com/soft98.gif
 barato.ir##DIV[id="featured"]
-
-
-
-
