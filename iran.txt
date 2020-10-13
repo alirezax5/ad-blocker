@@ -29,7 +29,7 @@ com.nxtras.banner.ImageRotator
 ###ea_intext_div
 ##td#freenet_table_ads
 !
-!--- ads site ---!
+!--- ads site iranian ---!
 ||sabavision.com^
 !--- Specific rules ---!
 www.aparat.com##DIV[class="list-banner w-100"]
