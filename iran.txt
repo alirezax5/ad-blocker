@@ -32,8 +32,10 @@ com.nxtras.banner.ImageRotator
 !
 !--- ads site iranian ---!
 ||sabavision.com^
-||kaprila.com^
+||kaprila.com^$third-party
 ||cloudirs.cf^
+||yektanet.com^
+||api.sabavision.com/$subdocument
 !--- Specific rules ---!
 www.aparat.com##DIV[class="list-banner w-100"]
 zoomg.ir##.banner-wrapper
