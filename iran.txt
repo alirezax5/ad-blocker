@@ -32,7 +32,7 @@ com.nxtras.banner.ImageRotator
 !
 !--- ads site iranian ---!
 ||sabavision.com^
-||cloudirs.cf^
+||kaprila.com^$third-party
 ||yektanet.com^
 ||api.sabavision.com/$subdocument
 !--- Specific rules ---!
