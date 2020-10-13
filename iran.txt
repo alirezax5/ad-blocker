@@ -29,11 +29,13 @@ com.nxtras.banner.ImageRotator
 ###ea_intext_div
 ##td#freenet_table_ads
 ##IMG[src="https://cloudirs.cf/padvish.az"]
+##DIV[class="ad-box"]
+##DIV[class="ads-sticky"]
 !
 !--- ads site iranian ---!
 ||sabavision.com^
 ||kaprila.com^$third-party
-||yektanet.com^
+||cloudirs.cf^
 ||api.sabavision.com/$subdocument
 !--- Specific rules ---!
 www.aparat.com##DIV[class="list-banner w-100"]
