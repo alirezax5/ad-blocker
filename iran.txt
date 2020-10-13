@@ -1,1 +1,37 @@
-1
+[Adblock 2.0]
+!--------------------------------------------------------------------------
+! Title :    Adblock-Iran
+! Expires:   4 days
+! Version:   1
+! Download:  https://gitcdn.xyz/repo/alirezax5/ad-blocker/main/iran.txt
+! Homepage:  https://github.com/alirezax5/ad-blocker
+! Support:   https://github.com/alirezax5/ad-blocker/issues
+! License:   BSD Simplified
+!--------------------------------------------------------------------------
+!--- General rules ---!
+/728x90.swf
+AdsClick.php?AdsID=
+BannerClick.aspx?ID=
+/bannerscstm/*
+/banners/*.jpg$~image
+b.*/ban/*
+/catalog/images/baner*.gif
+/cgi-bin/banner.cgi
+com.nxtras.banner.ImageRotator
+/design/images/banner/*
+?go=_common&p=banner&bannerId=
+/images/banner.gif
+/mambo/images/banners*
+/tpbanners/*
+/xgemius.js
+!
+!--- General element hiding rules ---!
+###ea_intext_div
+##td#freenet_table_ads
+!
+!--- ads site ---!
+||sabavision.com^
+!--- Specific rules ---!
+www.aparat.com##DIV[class="list-banner w-100"]
+
+
