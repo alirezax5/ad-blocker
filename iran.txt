@@ -32,7 +32,6 @@ com.nxtras.banner.ImageRotator
 !
 !--- ads site iranian ---!
 ||sabavision.com^
-||kaprila.com^$third-party
 ||cloudirs.cf^
 ||yektanet.com^
 ||api.sabavision.com/$subdocument
@@ -56,6 +55,7 @@ farsroid.com##DIV[class="site-middle-banners"]
 farsroid.com##DIV[class="banner farsroid-ads"]
 soft98.ir##DIV[id="a7d5x-special"]
 ||https://cdn.hostdl.com/soft98.gif
+barato.ir##DIV[id="featured"]
 
 
 
