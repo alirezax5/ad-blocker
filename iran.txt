@@ -33,5 +33,18 @@ com.nxtras.banner.ImageRotator
 ||sabavision.com^
 !--- Specific rules ---!
 www.aparat.com##DIV[class="list-banner w-100"]
+zoomg.ir##.banner-wrapper
+zoomg.ir##.banner
+zoomit.ir##.bannercontainer
+zoomit.ir##.showBanner
+zoomit.ir##.text-adv-row
+zoomit.ir##.Text5Ad
+zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
+zoomit.ir##A[href*="//app.adjust.com"]
+zoomit.ir##text-adv-box
+zoomtech.ir###rss-2
+zoomtech.ir###text-10
+zoomtech.ir###text-19
+zoomtech.ir###text-3
 
 
