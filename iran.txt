@@ -1,4 +1,5 @@
 [Adblock 2.0]
+! Checksum: 1kEKcblZ5N6QWm+fh01lNQ
 !--------------------------------------------------------------------------
 ! Title :    Adblock-Iran
 ! Expires:   4 days
