@@ -46,5 +46,8 @@ zoomtech.ir###rss-2
 zoomtech.ir###text-10
 zoomtech.ir###text-19
 zoomtech.ir###text-3
+||farsroid.com/file/PopM.js
+farsroid.com##DIV[class="site-middle-banners"]
+farsroid.com##DIV[class="banner farsroid-ads"]
 
 
