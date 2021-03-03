@@ -8,6 +8,62 @@
 ! Support:   https://github.com/alirezax5/ad-blocker/issues
 ! License:   BSD Simplified
 !--------------------------------------------------------------------------
+!-------------------------------------------------!
+!==============! Third-party Rules !==============!
+!-------------------------------------------------!
+||adnegah.net^$third-party
+||adpulse.ir^$third-party
+||adro.co^$third-party
+||adsima.net^$third-party
+||alipopup.ir^$third-party,popup
+||anetwork.ir^$third-party
+||azarbux.com^$third-party
+||clickyab.com^$third-party
+||congoro.com^$third-party
+||e-earn.ir^$third-party
+||farsbux.ir^$third-party
+||irpopup.ir^$third-party
+||janebi.ir^$third-party,popup
+||jetbux.ir^$third-party
+||kaprila.com^$third-party
+||magnetadservices.com^$third-party
+||mediaad.org^$third-party
+||merita.ir^$third-party
+||mihanclick.info^$third-party
+||mitranet.ir^$third-party
+||mitrarank.ir^$third-party,popup
+||netstart.ir^$third-party
+||p30rank.ir^$third-party
+||partclick.ir^$third-party
+||persianrank.ir^$third-party,popup
+||persianstat.com^$third-party
+||persianstat.ir^$third-party
+||popgozar.com^$third-party
+||popmaster.ir^$third-party,popup
+||poprush.net^$third-party,popup
+||popup.smusic.ir^$third-party,popup
+||popupaval.ir^$third-party
+||popuper.com^$third-party,popup
+||popupplus.ir^$third-party,popup
+||popuptala.com^$third-party
+||sabavision.com^$third-party
+||sanjagh.net^$third-party
+||sanjagh.com^$third-party
+||sheypoor.com^$third-party
+||tabligheirani.com^$third-party
+||tavoos.net^$third-party
+||terraclicks.com^$third-party,popup
+||toppopup.com^$third-party
+||utop.ir^$third-party
+||vatanclick.ir^$third-party
+||webgozar.ir^$third-party
+||wideads.com^$third-party
+||widgets.takhfifan.com^$third-party
+||yasell.biz^$third-party,popup
+||yekbux.com^$third-party,popup
+||yektanet.com^$third-party
+||zanboor.net^$third-party
+||zarpop.com^$third-party
 !--- General rules ---!
 /728x90.swf
 AdsClick.php?AdsID=
@@ -25,8 +81,16 @@ com.nxtras.banner.ImageRotator
 /tpbanners/*
 /xgemius.js
 /files/adv/*
+/ads.js
 !
 !--- General element hiding rules ---!
+##[type=="application/x-shockwave-flash"]
+##object[type=="application/x-shockwave-flash"]
+##[data*="banners"]
+##div[class*="banners-aparat"]
+##div[class*="banners-filimo"]
+##[data-list="filimoAds"]
+##embed[data*="banners"]
 ###ea_intext_div
 ##td#freenet_table_ads
 ##IMG[src="https://cloudirs.cf/padvish.az"]
@@ -88,6 +152,12 @@ com.nxtras.banner.ImageRotator
 ##.txtadsbox
 ##.vatanclick
 ##.widget_banner_ads
+##.below-single-ads
+##.site-middle-banners
+##.single-text-ads
+##.farsroid-ads
+
+##[class="farsroid-ads"]
 ##[class*="adro-b"]
 ##[class*="anetwork-b"]
 ##[class*="responsive_ads"]
@@ -112,16 +182,6 @@ com.nxtras.banner.ImageRotator
 ##div[id="kaprila_linktable"]
 ##a[title="تبلیغات"]
 ##a[title="ads"]
-!
-!--- ads site iranian ---!
-||sabavision.com^
-||kaprila.com^$third-party
-||cloudirs.cf^
-||yektanet.com^
-||api.sabavision.com/$subdocument	
-||magnetadservices.com^$third-part
-||mediaad.org^$third-party
-!--- Specific rules ---!
 www.aparat.com##DIV[class="list-banner w-100"]
 zoomg.ir##.banner-wrapper
 zoomg.ir##.banner
@@ -158,4 +218,25 @@ shatelland.com##div.adds-namava
 ||apktops.ir/wp-content/*.gif
 apktops.ir##section[class"apktops-slider-section"]
 apktops.ir##article[class"Xbanner"]
-
+##a[href^="https://www.hamdam.live"]
+##a[href^="https://hamdam.live"]
+##a[href^="http://hamdam.live"]
+##a[href^="http://www.hamdam.live"]
+##img[src="/static/images/shahfile.gif"]
+||savefile.link/popads.js
+##.ad-container
+##.video-ads
+##.ytp-ad-progress-list
+=adunit&
+||doubleclick.net^
+||flashtalking.com$domain=youtube.com
+||googleadservices.com
+||googlesyndication.com^
+||s0.2mdn.net/ads
+||www.google.*/pagead$domain=youtube.com
+||www.youtube.com/[[computeEmptyGif_()]]$image
+||www.youtube.com/[[computeThumbnailUrl_(data.thumbnail)]]
+||www.youtube.com/api/stats
+||www.youtube.com/pagead
+||www.youtube.com/ptracking
+youtube.com###masthead-ad
